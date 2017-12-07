@@ -1,7 +1,9 @@
 # RESELECT
 
 
-ReSelect for React, a beautiful and flexible select for React.[ReSelect For React](http://othmaneblial.github.io/reselect-for-react/)
+ReSelect for React, a beautiful and flexible select for React. [ReSelect For React](http://othmaneblial.github.io/reselect-for-react/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
