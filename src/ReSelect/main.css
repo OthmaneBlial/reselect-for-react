@@ -1,161 +1,153 @@
-  @import url('https://fonts.googleapis.com/css?family=Amaranth');
+@import url("https://fonts.googleapis.com/css?family=Amaranth");
 
-
-  html, body {
-    font-family: 'Amaranth', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    height: 100%;
-    background: #ECF0F3;
-  }
-
-
-  .select {
-    width: 450px;
-    height: 50px;
-    font-weight: 400;
-    font-family: 'Amaranth', sans-serif;
-    line-height: 10px;
-    font-size: 19px;
-    color: #000;
-    -webkit-box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    -moz-box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    border-radius: 5px;
-    padding: 5px 15px;
-    max-height: 200px;
-    box-sizing: content-box;
-  }
-
-  
-
-  .options {
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 5px 15px;
-    width: 430px;
-    max-height: 300px;
-    overflow-y: scroll;
-    min-height: 50px;
-  }
-
-  .options li {
-    font-size: 19px;
-    padding: 15px;
-    line-height: 10px;
-    cursor: pointer;
-
-  }
-
-  .options li:hover {
-    background: #9be5f7;
-  }
-
-  .grey-color {
-    color: #aaa;
-  }
-
-   .select-multiple {
-    width: 430px;
-    max-width: 430px;
-    min-height: 50px;
-    /*max-height: 400px;*/
-    font-weight: 400;
-    font-family: 'Amaranth', sans-serif;
-    line-height: 10px;
-    font-size: 19px;
-    color: #000;
-    -webkit-box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    -moz-box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    box-shadow: -3px -3px 18px -3px rgba(0,0,0,0.45);
-    border-radius: 5px;
-    padding: 5px 15px;
-    background-color: #ffffff;
-    position: relative;
-    /*box-sizing: border-box;*/
-  }
-
-  .select-multiple-items {
-    max-width: 380px;
-  }
-
-  .select-multiple .select-multiple-item {
-    display: inline-block;
-    background-color: #9be5f7;
-    padding: 4px 7px;
-    margin-right: 21px;
-    margin-bottom: 11px;
-    margin-top: 3px;
-    margin-left: 6px;
-    font-size: 13px;
-    color: #ffffff;
-    font-weight: 500;
-    cursor: default;
-  }
-
-  .select-multiple .select-multiple-item span {
-    /*position: absolute;*/
-    background-color: #9be5f7;
-    padding: 3px 8px;
-    margin-left: -4px;
-    border-radius: 50%;
-    cursor: pointer;
-
-  }
-
-  .select-multiple .message {
-    color: #aaa;
-    margin-top: 4%;
-    background-color: #ffffff;
-    font-size: 19px;
-    font-weight: 200;
-    margin-bottom: -5px;
-  }
-
-  .select-multiple .message-black {
-    color: #000;
-    margin-top: 4%;
-    background-color: #ffffff;
-    font-size: 19px;
-    font-weight: 500;
-
-  }
-
-  .select-multiple .caret {
-    position: absolute;
-    right: 2%;
-    top: 27%;
-    bottom: 73%;
-    font-size: 25px;
-    cursor: pointer;
-  }
-  .select-multiple .window-close {
-    position: absolute;
-    right: 8%;
-    top: 30%;
-    bottom: 70%;
-    cursor: pointer;
-  }
-
-
-  .disabled-item {
-    opacity: 0.2;
-    pointer-events:none;
-  }
-
-  .hide {
-    display: none;
-  }
-
-  [contenteditable]:focus {
-    outline: 0px solid transparent;
+html,
+body {
+  font-family: "Amaranth", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+  background: #ecf0f3;
 }
 
+.select {
+  width: 450px;
+  height: 50px;
+  font-weight: 400;
+  font-family: "Amaranth", sans-serif;
+  line-height: 10px;
+  font-size: 19px;
+  color: #000;
+  -webkit-box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  padding: 5px 15px;
+  max-height: 200px;
+  box-sizing: content-box;
+}
+
+.options {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 430px;
+  max-height: 300px;
+  overflow-y: scroll;
+  min-height: 50px;
+}
+
+.options li {
+  font-size: 19px;
+  padding: 15px;
+  line-height: 10px;
+  cursor: pointer;
+}
+
+.options li:hover {
+  background: #9be5f7;
+}
+
+.grey-color {
+  color: #aaa;
+}
+
+.select-multiple {
+  width: 430px;
+  max-width: 430px;
+  min-height: 50px;
+  /*max-height: 400px;*/
+  font-weight: 400;
+  font-family: "Amaranth", sans-serif;
+  line-height: 10px;
+  font-size: 19px;
+  color: #000;
+  -webkit-box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  box-shadow: -3px -3px 18px -3px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #ffffff;
+  position: relative;
+  /*box-sizing: border-box;*/
+}
+
+.select-multiple-items {
+  max-width: 380px;
+}
+
+.select-multiple .select-multiple-item {
+  display: inline-block;
+  background-color: #9be5f7;
+  padding: 4px 7px;
+  margin-right: 21px;
+  margin-bottom: 11px;
+  margin-top: 3px;
+  margin-left: 6px;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: default;
+}
+
+.select-multiple .select-multiple-item span {
+  /*position: absolute;*/
+  background-color: #9be5f7;
+  padding: 3px 8px;
+  margin-left: -4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.select-multiple .message {
+  color: #aaa;
+  margin-top: 4%;
+  background-color: #ffffff;
+  font-size: 19px;
+  font-weight: 200;
+  margin-bottom: -5px;
+}
+
+.select-multiple .message-black {
+  color: #000;
+  margin-top: 4%;
+  background-color: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.select-multiple .caret {
+  position: absolute;
+  right: 2%;
+  top: 27%;
+  bottom: 73%;
+  font-size: 25px;
+  cursor: pointer;
+}
+.select-multiple .window-close {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+  bottom: 70%;
+  cursor: pointer;
+}
+
+.disabled-item {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
 
 .select-multiple .search-input {
   /*display: inline-block;
-  padding-top: 10px;
-  height: 10px;*/
+padding-top: 10px;
+height: 10px;*/
   z-index: 999;
   color: #000;
   font-size: 15px;
@@ -163,8 +155,8 @@
 
 .select-multiple .search-input:focus {
   /*display: inline-block;
-  padding-top: 10px;
-  height: 10px;*/
+padding-top: 10px;
+height: 10px;*/
   z-index: 999;
   color: #000;
   font-size: 15px;
