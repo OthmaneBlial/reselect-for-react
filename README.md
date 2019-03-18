@@ -31,32 +31,20 @@ class App extends React.Component {
    constructor(props) {
       super(props);
 
-    
       this.state = {
-
           selectedOption: '',
-    
         }
-
         this.setSelectedOption = this.setSelectedOption.bind(this);
-
-
       }
 
       setSelectedOption(selectedOption) {
-        const op = selectedOption;
-        this.setState({selectedOption: op});
+        this.setState({selectedOption});
       }
 
-
-
-
    render() {
-
-
       return (
          <div>
-            <ReSelectSingle 
+            <ReSelectSingle
             options={['Argentina', 'Colombia', 'Brazil', 'Chile', 'Venezuela', 'Germany',
                           'France', 'China', 'USA', 'Russia', 'UK' ]}
             message='Choose a country'
@@ -78,38 +66,26 @@ class App extends React.Component {
 
    constructor(props) {
       super(props);
-
-    
       this.state = {
-
           selectedOptions: []
-    
         }
 
         this.setSelectedOptions = this.setSelectedOptions.bind(this);
-
-
       }
 
       setSelectedOptions(selectedOptions) {
-        const ops = selectedOptions;
-        this.setState({selectedOptions: ops});
+        this.setState({selectedOptions});
       }
 
 
-
-
-
    render() {
-
-
       return (
          <div>
-            <ReSelectMultiple 
+            <ReSelectMultiple
             options={['Argentina', 'Colombia', 'Brazil', 'Chile', 'Venezuela', 'Germany',
                           'France', 'China', 'USA', 'Russia', 'UK' ]}
             message='Choose one or more countries'
-            max={7} 
+            max={7}
             getSelectedOptions={this.setSelectedOptions} />
          </div>
          );
