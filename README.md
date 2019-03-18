@@ -1,10 +1,6 @@
 # RESELECT
 
-
 ReSelect for React, a beautiful and flexible select for React. [ReSelect For React](http://othmaneblial.github.io/reselect-for-react/)
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
 ### Installation
@@ -13,11 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 npm install reselect-for-react --save
 ```
 
-
-
 ### [Demos](http://othmaneblial.github.io/reselect-for-react/)
-
-
 
 
 ### Example of ReSelect with one option
@@ -93,7 +85,6 @@ class App extends React.Component {
 }
 
 ```
-
 
 
 
